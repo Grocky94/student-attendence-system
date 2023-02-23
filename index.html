@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        #gettingInfo {
+            width:50%;
+            margin:auto;
+            border:1px solid red;
+            height:80px;
+            text-align:center;
+        }
+
+        #displayingStudentsList {
+            width:80%;
+            margin:auto;
+            border:1px solid red;
+            text-align:center;
+        }
+
+        #markingAttendance {
+            width: 60%;
+            margin: auto;
+            border: 1px solid blue;
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gettingInfo">
+        <label>Add Students</label><br>
+        <input id="addingStudent" type="text" placeholder="add students here"/>
+        <button onclick="addStudent()">ADD STUDENTS</button>
+    </div>
+
+    <h2>Mark Attendence</h2>
+    <div id="markingAttendance">
+
+    </div>
+    <h2>Attendence Sheet</h2>
+    <div id="displayingStudentsList">
+
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

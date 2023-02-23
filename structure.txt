@@ -1,0 +1,26 @@
+steps
+for Adding Students
+1.creat HTML to get info of student.
+2.acess the info from html and google storage via js
+3. send data from html to js 
+4. then send data from js to web staorage.
+
+
+For Displaying Students
+1. make a html doc structure 
+1.a make a structure for Attendence
+2. take student list from web storage
+4. showcase into html from js
+
+For marking Attendence
+1. present - function- db - present with date
+2. Absent - function - db - absent with date
+
+Input ADD STUDENT NAME - 
+1. Rocky - [present]  [absent]
+2.ajit - [pr] [ab]
+
+eg.           rocky    ajit     avi.....list goes on
+date
+23.02.2023    present  absent   present
+24.02.2023    present  absent   present
